@@ -1,4 +1,4 @@
-## **CNA Data Analytics Capstone Project — Customer Churn Analysis**
+# **CNA Data Analytics Capstone Project — Customer Churn Analysis**
 
 ## **Overview**
 This capstone project was completed as part of the Data Analytics program at CNA. Working collaboratively with two colleagues, we built an end‑to‑end analytics solution using real-world telecom customer data. The project demonstrates skills in data cleaning, exploration, visualization, predictive modeling, and insight communication.
