@@ -5,12 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Now | Rebecca</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f7f9fc; margin: 0; padding: 0; color: #333; }
-        header, footer { background: #2b6cb0; color: white; padding: 20px; text-align: center; }
-        nav { background: #1e4f7a; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        section { max-width: 900px; margin: auto; padding: 30px; }
-        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f7f9fc; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+        }
+
+        header, footer { 
+            background: #2b6cb0; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        }
+
+        /* ⭐ CLEAN NAVIGATION BAR */
+        nav {
+            background: #174a73;
+            padding: 12px;
+            text-align: center;
+            border-bottom: 3px solid #2b6cb0;
+        }
+        nav a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #cce4ff;
+        }
+
+        section { 
+            max-width: 900px; 
+            margin: auto; 
+            padding: 30px; 
+        }
+
+        .card { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+            margin-bottom: 20px; 
+        }
+
+        .button { 
+            display: inline-block; 
+            padding: 10px 15px; 
+            background: #2b6cb0; 
+            color: white; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            margin-top: 10px;
+        }
     </style>
 </head>
 
@@ -18,9 +68,10 @@
 
 <header>
     <h1>Learning Now</h1>
-    <p>What I’m currently improving</p>
+    <p>What I'm currently studying and improving</p>
 </header>
 
+<!-- ⭐ CLEAN NAVIGATION BAR -->
 <nav>
     <a href="index.html">Home</a>
     <a href="projects.html">Projects</a>
@@ -32,24 +83,39 @@
 <section>
 
     <div class="card">
-        <h2>📘 Python for Data Analysis</h2>
-        <p>Improving my skills in pandas, matplotlib, and data cleaning workflows.</p>
+        <h2>📘 Python</h2>
+        <p>Practicing data cleaning, visualization, and automation using pandas and matplotlib.</p>
     </div>
 
     <div class="card">
-        <h2>📊 Power BI Dashboards</h2>
-        <p>Learning advanced visuals, DAX basics, and multi-page dashboard design.</p>
+        <h2>📊 Power BI</h2>
+        <p>Building dashboards, learning DAX basics, and improving storytelling with visuals.</p>
     </div>
 
     <div class="card">
-        <h2>📈 SQL Basics</h2>
-        <p>Practicing SELECT queries, filtering, grouping, and joins.</p>
+        <h2>🧮 SQL</h2>
+        <p>Strengthening query skills: SELECT, JOIN, GROUP BY, filtering, and basic data modeling.</p>
+    </div>
+
+    <div class="card">
+        <h2>📈 Excel</h2>
+        <p>Improving pivot tables, charts, formulas, and beginner-level Power Query.</p>
+    </div>
+
+    <div class="card">
+        <h2>🎓 Professional Development</h2>
+        <p>Applying for data analyst roles, improving résumé writing, and building portfolio projects.</p>
     </div>
 
 </section>
 
+<!-- ⭐ FOOTER WITH SOCIAL ICONS -->
 <footer>
-    © 2026 Rebecca — Data Analyst Portfolio
+    <p>© 2026 Rebecca — Data Analyst Portfolio</p>
+    <p>
+        <a href="https://github.com/RebeccaBambaririki" style="color:white; margin-right:15px;">💻 GitHub</a>
+        <a href="https://linkedin.com" style="color:white;">🔗 LinkedIn</a>
+    </p>
 </footer>
 
 </body>
