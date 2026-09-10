@@ -5,12 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Rebecca</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f7f9fc; margin: 0; padding: 0; color: #333; }
-        header, footer { background: #2b6cb0; color: white; padding: 20px; text-align: center; }
-        nav { background: #1e4f7a; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        section { max-width: 900px; margin: auto; padding: 30px; }
-        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #f7f9fc; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+        }
+
+        header, footer { 
+            background: #2b6cb0; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        }
+
+        /* ⭐ CLEAN NAVIGATION BAR */
+        nav {
+            background: #174a73;
+            padding: 12px;
+            text-align: center;
+            border-bottom: 3px solid #2b6cb0;
+        }
+        nav a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #cce4ff;
+        }
+
+        section { 
+            max-width: 900px; 
+            margin: auto; 
+            padding: 30px; 
+        }
+
+        .card { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1); 
+            margin-bottom: 20px; 
+        }
+
+        .button { 
+            display: inline-block; 
+            padding: 10px 15px; 
+            background: #2b6cb0; 
+            color: white; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            margin-top: 10px;
+        }
     </style>
 </head>
 
@@ -21,6 +71,7 @@
     <p>Explore my data analysis work</p>
 </header>
 
+<!-- ⭐ CLEAN NAVIGATION BAR -->
 <nav>
     <a href="index.html">Home</a>
     <a href="projects.html">Projects</a>
@@ -34,25 +85,30 @@
     <div class="card">
         <h2>🧑‍⚕️ Healthcare Wait Times Analysis</h2>
         <p>A data-driven review of emergency, diagnostic, and primary care wait times in NL.</p>
-        <a href="healthcare-wait-times.html">View Project</a>
+        <a class="button" href="healthcare-wait-times.html">View Project</a>
     </div>
 
     <div class="card">
         <h2>🧠 Youth Mental Health Crisis</h2>
         <p>Exploring causes, risk factors, and data trends affecting youth mental health.</p>
-        <a href="youth-mental-health.html">View Project</a>
+        <a class="button" href="youth-mental-health.html">View Project</a>
     </div>
 
     <div class="card">
         <h2>📊 CNA Data Analytics Capstone</h2>
-        <p>A complete beginner-friendly analytics workflow using Excel, Python, and Power BI.</p>
-        <a href="capstone.html">View Project</a>
+        <p>A complete analytics workflow using Excel, Python, and Power BI.</p>
+        <a class="button" href="capstone.html">View Project</a>
     </div>
 
 </section>
 
+<!-- ⭐ FOOTER WITH SOCIAL ICONS -->
 <footer>
-    © 2026 Rebecca — Data Analyst Portfolio
+    <p>© 2026 Rebecca — Data Analyst Portfolio</p>
+    <p>
+        <a href="https://github.com/RebeccaBambaririki" style="color:white; margin-right:15px;">💻 GitHub</a>
+        <a href="https://linkedin.com" style="color:white;">🔗 LinkedIn</a>
+    </p>
 </footer>
 
 </body>
