@@ -12,43 +12,66 @@
             background: #f7f9fc;
             color: #333;
         }
-        header {
+
+        header, footer {
             background: #2b6cb0;
             color: white;
-            padding: 40px 20px;
+            padding: 30px 20px;
             text-align: center;
         }
-        h1 {
-            margin-bottom: 10px;
+
+        /* ⭐ CLEAN NAVIGATION BAR */
+        nav {
+            background: #174a73;
+            padding: 12px;
+            text-align: center;
+            border-bottom: 3px solid #2b6cb0;
         }
+        nav a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #cce4ff;
+        }
+
         section {
             padding: 30px 20px;
             max-width: 900px;
             margin: auto;
         }
+
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 20px;
         }
+
         .project-card {
             background: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         }
+
         .tech-stack {
             background: #edf2f7;
             padding: 15px;
             border-radius: 8px;
             margin-bottom: 20px;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
+
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
             background: #2b6cb0;
             color: white;
-            margin-top: 40px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -59,6 +82,15 @@
     <h1>Rebecca | Data Analyst Portfolio</h1>
     <p>Warm, structured, beginner‑friendly analytics — powered by Excel, Python, SQL, and Power BI.</p>
 </header>
+
+<!-- ⭐ CLEAN NAVIGATION BAR -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="learning-now.html">Learning Now</a>
+    <a href="contact.html">Contact</a>
+    <a href="resume.html">Résumé</a>
+</nav>
 
 <section>
     <h2>👋 About Me</h2>
@@ -85,34 +117,36 @@
             <h3>🧑‍⚕️ Healthcare Wait Times Analysis</h3>
             <p>
                 A data‑driven review of wait times for emergency care, diagnostic imaging, and primary care in Newfoundland & Labrador.
-                Includes visualizations, bottleneck identification, and recommendations for improving service delivery.
             </p>
-            <a href="#">View Project</a>
+            <a class="button" href="healthcare-wait-times.html">View Project</a>
         </div>
 
         <div class="project-card">
-            <h3>🧠 Causes of Mental Health Crisis Among Youth</h3>
+            <h3>🧠 Youth Mental Health Crisis</h3>
             <p>
                 An evidence‑based analysis exploring social, economic, and environmental factors contributing to youth mental health challenges.
-                Includes data trends, risk factors, and policy‑aligned insights.
             </p>
-            <a href="#">View Project</a>
+            <a class="button" href="youth-mental-health.html">View Project</a>
         </div>
 
         <div class="project-card">
-            <h3>📊 CNA Data Analytics Capstone Project</h3>
+            <h3>📊 CNA Data Analytics Capstone</h3>
             <p>
                 A full analytics workflow including data cleaning, exploration, visualizations, and insights using Excel, Python, and Power BI.
-                Demonstrates practical beginner‑friendly analysis skills.
             </p>
-            <a href="#">View Project</a>
+            <a class="button" href="capstone.html">View Project</a>
         </div>
 
     </div>
 </section>
 
+<!-- ⭐ FOOTER WITH SOCIAL ICONS -->
 <footer>
     <p>© 2026 Rebecca — Data Analyst Portfolio</p>
+    <p>
+        <a href="https://github.com/RebeccaBambaririki" style="color:white; margin-right:15px;">💻 GitHub</a>
+        <a href="https://linkedin.com" style="color:white;">🔗 LinkedIn</a>
+    </p>
 </footer>
 
 </body>
