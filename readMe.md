@@ -1,49 +1,45 @@
-# **Rebecca Bambaririki — Portfolio**
-Welcome to my professional portfolio. I am an Administrative Support Professional and Data Analytics graduate based in St. John’s, NL. I combine strong organizational skills with technical training in data cleaning, reporting, visualization, and foundational analytics.
+**Rebecca’s GitHub Pages Site**
+This repository hosts my personal website built with GitHub Pages. It serves as a simple landing page where I can share projects, updates, and resources as I continue building my data analytics portfolio.
 
-## **Technical Skills**
-- Excel (advanced formatting, formulas, pivot tables, data cleaning, reporting)
+**📄 About This Site**
+This site is generated automatically using GitHub Pages.
+It is designed to be lightweight, easy to update, and beginner‑friendly.
 
-- Power BI (interactive dashboards, data modeling, DAX basics)
+I use it to:
 
-- SQL (select, join, filter, aggregate queries)
+- Share links to my projects
 
-- Python (pandas for cleaning, exploration, simple analysis)
+- Highlight new work
 
-- Machine learning foundations (classification, regression, model evaluation)
+- Experiment with layouts
 
-- Data visualization & storytelling
+- Practice organizing content online
 
-- Data cleaning, validation, and transformation
+**📁 Repository Structure**
 
-- Reporting and documentation for program outcomes
+Rebecca-hss.github.io/
+│── index.html        # Main webpage
+│── assets/           # Images, icons, styles (if added)
+│── readMe.md         # This file
 
-## **Professional Skills**
-- Administrative support & accurate record‑keeping
+**🚀 How It Works**
+GitHub Pages automatically publishes the content of this repository as a website.
+Any changes I make to index.html or other files appear on the live site within seconds.
 
-- Clear communication & cultural sensitivity
+**🔧 Future Improvements**
 
-- Community engagement & newcomer support
+I plan to enhance this site by adding:
 
-- Organized information management for decision‑making
+A Projects section
 
-- Problem‑solving and trend identification
+Links to dashboards and notebooks
 
-## **Featured Projects**
+A cleaner layout
 
-- Community Participation Dashboard
+Visual elements and icons
 
-- Excel Reporting Tools & Program Outcomes
+A more structured homepage
 
-- Healthcare Wait Times Analysis
-
-- Youth Mental Health Policy Brief
-
-- CNA Data Analytics Capstone Project
-
-## **Contact**
-Email: beccre777@gmail.com  
-Location: St. John’s, NL
-
-###  Portfolio Website  
-👉 [Visit my live portfolio](https://Rebecca-hss.github.io)
+**📬 Contact**
+To see my full data analyst portfolio, visit my GitHub profile:
+github.com/RebeccaBambaririki
